@@ -10,5 +10,5 @@ $form.on('submit', function(eventObject) {
 
 	#listField.prepend($theLI);
 
-	$input.val('')
+	$input.val('');
 })
