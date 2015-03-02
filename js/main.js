@@ -7,20 +7,8 @@ $form.on('submit', function(eventObject) {
 
 	var $theLI = $('<li>');
 	$theLI.html($input.val());
-    
-    var $button = $('<button class="button-r">X</button>');
-    
-	$listField.prepend($theLI);
-    
-    $theLI.prepend($button);
-    
+
+	#listField.prepend($theLI);
+
 	$input.val('');
-});
-
-$listField.on('click', 'li', function () {
-    $(this).addClass('js-strike')
-});
-
-$listField.on('click', 'button', function () {
-	$(this).parent().remove();
-});
+})
