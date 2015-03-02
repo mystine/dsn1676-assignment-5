@@ -75,6 +75,7 @@ button {
 
 li {
     padding: 10px;
+    float: left;
 }
 
 .js-strike {
@@ -83,6 +84,7 @@ li {
 
 .button-r {
     border: none;
+    float: right;
 }
 
 .button-r:hover {
