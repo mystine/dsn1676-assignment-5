@@ -22,13 +22,20 @@ html {
 }
 
 form {
-	color: red;
+    background-color: lightsteelblue;
+    padding: 1em
 }
 
-ul {
-	color: blue;
+label {
+    display: block;
+    text-align: center;
 }
 
-li {
-	color:green;
+input {
+    
 }
+
+button {
+    background-color: lightgrey; 
+}
+    
