@@ -20,3 +20,7 @@ html {
 .list-item {
 	list-style: none;
 }
+
+form {
+	background-color: red;
+}
