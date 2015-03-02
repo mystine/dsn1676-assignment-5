@@ -5,7 +5,7 @@ var $input = $('#the-list');
 $form.on('submit', function(eventObject) }
 	eventObject.preventDefault();
 
-	var $theLI = $('<ul>');
+	var $theLI = $('<li>');
 	$theLI.html($input.val());
 
 	#listField.prepend($theLI);
