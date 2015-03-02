@@ -11,4 +11,8 @@ $form.on('submit', function(eventObject) {
 	$listField.prepend($theLI);
 
 	$input.val('');
-})
+});
+
+$listField.on('click', 'li', function () {
+    $(this).addClass('js-strike')
+});

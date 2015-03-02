@@ -75,3 +75,7 @@ button {
 li {
     padding: 10px;
 }
+
+.js-strike {
+    text-decoration: line-through;
+}
