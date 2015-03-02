@@ -80,3 +80,17 @@ li {
 .js-strike {
     text-decoration: line-through;
 }
+
+.button {
+    margin-right: 0;
+	position: relative;
+    left: 60%;
+    padding: .5em;
+}
+.button-r {
+	background-color: #fff;
+}
+
+.button-r:hover {
+	background-color: cornflowerblue;
+}
