@@ -54,7 +54,10 @@ button {
 }
 
 .list-field {
+    background-color: cornsilk;
+    padding: 4em;
     list-style-type: none;
+    line-height: 200%;
 }
 
 .list-item {
