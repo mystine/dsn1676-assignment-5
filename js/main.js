@@ -1,8 +1,8 @@
 var $listField = $('.list-field');
 var $form = $('form');
-var $toDo = $('#to-do');
+var $toDo = $('#the-list');
 
-$form.on('submit'. function (eventObject) }
+$form.on('submit', function(eventObject) }
 	eventObject.preventDefault();
 
 	var $theLI = $('<ul>');
@@ -11,3 +11,4 @@ $form.on('submit'. function (eventObject) }
 	#listField.prepend($theLI);
 
 	$input.val('')
+})
