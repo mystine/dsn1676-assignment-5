@@ -17,6 +17,17 @@ html {
 	box-sizing: inherit;
 }
 
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: block;
+    width: 100$;
+}
+
 .list-item {
 	list-style: none;
 }
@@ -57,9 +68,10 @@ button {
     background-color: cornsilk;
     list-style-type: none;
     line-height: 200%;
+    margin: 0;
+    padding: 0;
 }
 
-.list-item {
-    text-decoration: none;
+li {
+    padding: 10px;
 }
-    
