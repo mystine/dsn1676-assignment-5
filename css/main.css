@@ -34,7 +34,8 @@ label {
 }
 
 input {
-    border
+    padding: 5px;
+    border: 1px solid #fff;
 }
 
 button {
