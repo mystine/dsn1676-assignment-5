@@ -23,19 +23,27 @@ html {
 
 form {
     background-color: lightsteelblue;
-    padding: 1em
+    padding: 1em;
 }
 
 label {
     display: block;
     text-align: center;
+    color: dimgray;
+    font-size: 1.5rem;
 }
 
 input {
-    
+    border
 }
 
 button {
-    background-color: lightgrey; 
+    background-color: lightgrey;
+    padding: 5px;
+    margin-left: -5px;
+    background-color: cornsilk;
+    border: 1px solid #fff;
+    color: dimgray;
+    text-decoration: none;
 }
     
