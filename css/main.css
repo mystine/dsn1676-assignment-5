@@ -42,7 +42,7 @@ input {
 button {
     background-color: lightgrey;
     padding: 5px;
-    margin-left: -5px;
+    margin-left: -10px;
     background-color: cornsilk;
     border: 1px solid #fff;
     color: dimgray;
@@ -55,7 +55,6 @@ button {
 
 .list-field {
     background-color: cornsilk;
-    padding: 4em;
     list-style-type: none;
     line-height: 200%;
 }
