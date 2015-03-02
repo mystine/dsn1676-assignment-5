@@ -1,6 +1,6 @@
 var $listField = $('.list-field');
 var $form = $('form');
-var $toDo = $('#the-list');
+var $input = $('#the-list');
 
 $form.on('submit', function(eventObject) }
 	eventObject.preventDefault();
