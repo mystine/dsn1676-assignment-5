@@ -1,7 +1,6 @@
 var $listField = $('.list-field');
 var $form = $('form');
 var $input = $('#the-list');
-var $button = $('.add-button');
 
 $form.on('submit', function(eventObject) {
 	eventObject.preventDefault();
@@ -15,6 +14,6 @@ $form.on('submit', function(eventObject) {
 });
 
 $listField.on('click', 'li', function () {
-    $(this).addClass('js-strike')
+    $(this).addClass('js-strike');
 });
 
