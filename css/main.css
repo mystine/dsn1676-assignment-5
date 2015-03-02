@@ -22,5 +22,13 @@ html {
 }
 
 form {
-	background-color: red;
+	color: red;
+}
+
+ul {
+	color: blue;
+}
+
+li {
+	color:green;
 }

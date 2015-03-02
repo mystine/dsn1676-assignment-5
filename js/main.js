@@ -8,7 +8,7 @@ $form.on('submit', function(eventObject) {
 	var $theLI = $('<li>');
 	$theLI.html($input.val());
 
-	#listField.prepend($theLI);
+	$listField.prepend($theLI);
 
 	$input.val('');
 })
